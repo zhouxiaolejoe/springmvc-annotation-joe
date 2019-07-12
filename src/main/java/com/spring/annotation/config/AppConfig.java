@@ -18,7 +18,13 @@ import org.springframework.web.servlet.config.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @Description  Web只扫描Controller 子容器 禁用默认扫描规则useDefaultFilters = false
+ * @Author ZhouXiaoLe
+ * @Date  2019/6/4  14:07
+ * @Param
+ * @return
+ **/
 /**
 * @Description  Web只扫描Controller 子容器 禁用默认扫描规则useDefaultFilters = false
 * @Author ZhouXiaoLe
