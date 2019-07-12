@@ -6,6 +6,13 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+/**
+* @Description  
+* @Author ZhouXiaoLe
+* @Date  2019/7/12  15:20
+* @Param 
+* @return 
+**/
 @Component
 public class MyInterceptor implements HandlerInterceptor {
 	//目标方法之前执行
