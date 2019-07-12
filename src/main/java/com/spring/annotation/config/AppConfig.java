@@ -18,6 +18,13 @@ import org.springframework.web.servlet.config.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+* @Description  
+* @Author ZhouXiaoLe
+* @Date  2019/7/12  15:19
+* @Param 
+* @return 
+**/
 @EnableWebMvc
 @Configuration
 @ComponentScan(value = {"com.spring.annotation"},includeFilters = {
